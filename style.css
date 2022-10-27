@@ -3,6 +3,8 @@
     font: 1.6rem Roboto, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }
 
+
+
 body{   
     width: 100%;
     height: auto;
@@ -60,7 +62,7 @@ body{
     margin-top: 20px;
 }
 
-h1, h3{
+h1, h3, h2{
     color: white;
     position: relative;
     font-size: 24px;
@@ -197,6 +199,54 @@ span{
     margin-left: 10px;
 }
 
-#projetos{
-    margin-bottom: 100px;
+#projetos{    
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
+
+
+
+.projects {
+
+    width: 90%;
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    border: 1px solid rgb(90, 89, 89);
+    margin-top: 50px;
+    border-radius: 15px;
+    padding: 15px;
+}
+
+.projects:hover{
+    border: 1px solid rgb(255, 255, 255);
+
+}
+
+.img-project{
+    width: 100%;
+    border-radius: 15px;
+}
+
+
+
+#titleProjects, .tecnologies, .link-repositorio, .link-projeto{  
+    width: 100%;
+    text-align: start;
+    margin: 10px;
+    display: inline-flex;
+    align-items: center;
+}
+
+.logo-tecnologies{   
+     
+    width: 30px;
+    border: none;
+    margin-left: 10px;
+}
+
